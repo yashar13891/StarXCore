@@ -1,0 +1,54 @@
+name: teststarxcore
+version: '1'
+main: org.yashar.teststarxcore.Teststarxcore
+api-version: '1.20'
+commands:
+  gmc:
+    description: Change a player's game mode to Creative
+  gms:
+    description: Change a player's game mode to Survival
+  gma:
+    description: Change a player's game mode to Adventure
+  gmsp:
+    description: Change a player's game mode to Spectator
+  repair:
+    description: /repair plugin
+    aliases:
+      - fix
+  setspawn:
+    description: Sets the spawn location to your current location.
+  spawn:
+    description: Teleports you or another player to the spawn location.
+  fly:
+    description: Enable or disable flight for a player.
+    permission: teststarxcore.fly.others
+  nightvision:
+    description: Toggles night vision effect for a player
+    permission: runnabletest.nightvision
+    aliases:
+      - nv
+permissions:
+  teststarxcore.gmsp:
+    description: Allows the player to use the /gmsp command.
+    default: op
+  teststarxcore.gms:
+    description: Allows the player to use the /gms command.
+    default: op
+  teststarxcore.gmc:
+    description: Allows the player to use the /gmc command.
+    default: op
+  teststarxcore.gma:
+    description: Allows the player to use the /gma command.
+    default: op
+  teststarxcore.setspawn:
+    description: Allows the user to set the spawn location.
+    default: op
+  teststarxcore.spawn:
+    description: Allows the user to teleport to spawn or teleport others to spawn.
+    default: op
+  teststarxcore.fly.others:
+        description: Allows the player to toggle flight for other players.
+        default: op
+  teststarxcore.nightvision:
+      description: Permission to toggle night vision for self or others
+      default: op

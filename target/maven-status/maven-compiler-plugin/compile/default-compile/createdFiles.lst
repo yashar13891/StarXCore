@@ -1,0 +1,15 @@
+org\yashar\teststarxcore\SpawnCommand$1.class
+org\yashar\teststarxcore\SpawnCommand.class
+org\yashar\teststarxcore\gmacommand.class
+org\yashar\teststarxcore\SetSpawnCommand.class
+org\yashar\teststarxcore\Teststarxcore.class
+org\yashar\teststarxcore\FlyCommandExecutor.class
+org\yashar\teststarxcore\repaircommand.class
+org\yashar\teststarxcore\gmccommand.class
+org\yashar\teststarxcore\SpawnDataManager.class
+org\yashar\teststarxcore\gmspcommand.class
+org\yashar\teststarxcore\gmscommand.class
+org\yashar\teststarxcore\FlyTabCompleter.class
+org\yashar\teststarxcore\nightvisionCommandExecuter.class
+org\yashar\teststarxcore\ConfigManager.class
+org\yashar\teststarxcore\RepairTabCompleter.class
